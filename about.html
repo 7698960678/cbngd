@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standford University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-close" style="font-size:26px" onclick="hideMenu()"></i> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" style="font-size:26px" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+
+<!-- -----About Us Contant----- -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi assumenda, doloremque rem optio quidem est quod. Exercitationem vel error, quam aliquid eius cumque qui et autem eaque, unde magni dicta tempore odit, omnis temporibus hic quidem voluptas amet ipsam distinctio.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="contact1.jpg" >
+        </div>
+    </div>
+</section>
+
+<!-- -----Footer----- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, autem! Sunt deleniti obcaecati placeat consequatur magni recusandae facere, saepe <br> tempore earum corporis, dolore minima doloremque, temporibus vitae ab est deserunt libero quis quaerat vero!</p>
+
+    <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=100049318094152"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+        <a href="https://twitter.com/YashKaila2?t=QZ9UKooLu9RIzymvDjqh2A&s=08"><i class="fa fa-twitter" style="font-size:24px"></i></a>
+        <a href="https://www.instagram.com/patel_yash_15802/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+        <a href="https://www.linkedin.com/in/yashkumar-kaila-4a6976214"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+    </div>
+
+    <p class="size">Made With <i class="fa fa-heart-o"></i> By Yash Patel</p>
+</section>
+
+
+<!-- -----javaScript for Toggle Menu----- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
